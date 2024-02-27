@@ -8,6 +8,7 @@
             "email": "mail.aashishjha@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "lcobucci/jwt": "^5.0",
         "cheprasov/php-redis-client": "^1.10",
