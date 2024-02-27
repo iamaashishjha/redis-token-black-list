@@ -1,0 +1,39 @@
+{
+    "name": "geniussystems-np/redis-token-black-list",
+    "description": "Redis Token Black List for Authentication, Change Password and Reset Password",
+    "type": "library",
+    "authors": [
+        {
+            "name": "iamaashishjha",
+            "email": "mail.aashishjha@gmail.com"
+        }
+    ],
+    "require": {
+        "lcobucci/jwt": "^5.0",
+        "cheprasov/php-redis-client": "^1.10",
+        "predis/predis": "^2.2",
+        "defuse/php-encryption": "^2.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeniusSystems\\RedisTokenBlackList\\": "src/",
+            "GeniusSystems\\RedisTokenBlackList\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "version": "v1.0.0",
+    "php": "^7.1|^8.0",
+    "config": {
+        "platform": {
+            "php": "8.0"
+        },
+        "platform-check": false
+    },
+    "prefer": {
+        "lcobucci/jwt": ">=3.3.3 <5.2.0",
+        "phpunit/phpunit": ">=7.0.0 <11.0.3"
+    }
+}
