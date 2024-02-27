@@ -1,5 +1,5 @@
 {
-    "name": "geniussystems-np/redis-token-black-list",
+    "name": "iamaashishjha/redis-token-black-list",
     "description": "Redis Token Black List for Authentication, Change Password and Reset Password",
     "type": "library",
     "authors": [
